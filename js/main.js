@@ -1,5 +1,6 @@
 import {createPhotos} from './data.js';
+import {picturesContainer} from './miniatures-creator.js';
 
-console.log(
-  createPhotos()
-);
+console.log(picturesContainer);
+
+
