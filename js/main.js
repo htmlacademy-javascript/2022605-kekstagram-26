@@ -1,6 +1,6 @@
-import {createPhotos} from './data.js';
-import {picturesContainer} from './miniatures-creator.js';
+import { makePhotos } from "./data.js";
+import { generateMiniatures } from "./miniatures-creator.js";
 
-console.log(picturesContainer);
-
-
+const generatedData = makePhotos();
+console.log(generatedData);
+generateMiniatures(generatedData);

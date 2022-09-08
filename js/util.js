@@ -19,5 +19,9 @@ const getRandomArrayElement = (elements) => {
   return elements[getRandomPositiveInteger(0, elements.length - 1)];
 };
 
+// Проверка клавиши ESC
+const isEscapeKey = (evt) => evt.key === 'Escape';
+
 export {getRandomPositiveInteger};
 export {getRandomArrayElement};
+export {isEscapeKey};
